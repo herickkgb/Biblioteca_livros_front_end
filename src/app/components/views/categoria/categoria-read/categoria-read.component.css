@@ -2,6 +2,9 @@
     width: 90%;
     margin: 1.4rem auto auto auto;
 }
+.book{
+  color: blueviolet;
+}
 
 .title {
     text-align: center;
@@ -16,17 +19,12 @@ button {
     width: 100%;
 }
 
-.livros {
-    color: rgb(37, 125, 240);
-    margin-left: .6rem;
-}
-
 .edit {
-    color: rgb(206, 173, 24);
+    color: rgb(0, 228, 38);
 }
 
 .delete {
-    color: rgb(228, 56, 56);
+    color: rgb(250, 0, 0);
     margin-left: .5rem;
 }
 
@@ -37,4 +35,11 @@ button {
   color:#468dbdc5 ;
   font-size: 2rem;
   font-weight: 500;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  padding-top: 11px;
+  padding-bottom: 11px;
 }

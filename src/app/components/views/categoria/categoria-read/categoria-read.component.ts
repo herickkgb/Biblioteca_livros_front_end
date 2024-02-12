@@ -21,5 +21,5 @@ export class CategoriaReadComponent implements OnInit {
     });
   }
 
-  displayedColumns: string[] = ['id', 'nome', 'descricao', 'acoes'];
+  displayedColumns: string[] = ['id', 'nome', 'descricao', "livros",'acoes'];
 }
