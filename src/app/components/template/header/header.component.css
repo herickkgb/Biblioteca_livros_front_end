@@ -1,0 +1,21 @@
+img {
+    height: 3rem;
+}
+
+.header {
+    justify-content: start;
+    height: 10%;
+    background-color: #005c99;
+}
+
+span {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+span {
+    padding-left: 1.2rem;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}

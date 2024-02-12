@@ -1,0 +1,28 @@
+.container {
+    height: 85%;
+    background-color: #e0e0e0;
+}
+
+i {
+    padding-right: .6rem;
+}
+
+.side {
+    width: 12%;
+    background-color: #468dbdc5;
+}
+
+mat-nav-list {
+    justify-content: center;
+}
+
+.nav {
+    width: 50%;
+}
+i{
+  color: white;
+}
+
+span{
+  color: white;
+}
