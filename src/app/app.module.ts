@@ -22,6 +22,7 @@ import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { MatInputModule } from "@angular/material/input";
 import { MatFormFieldModule } from "@angular/material/form-field";
 import { MatSnackBarModule } from "@angular/material/snack-bar";
+import { CategoriaCreateComponent } from './components/views/categoria/categoria-create/categoria-create.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { MatSnackBarModule } from "@angular/material/snack-bar";
     FooterComponent,
     NavComponent,
     HomeComponent,
-    CategoriaReadComponent
+    CategoriaReadComponent,
+    CategoriaCreateComponent
   ],
   imports: [
     BrowserModule,
