@@ -1,0 +1,57 @@
+.content {
+  width: 90%;
+  margin: 1.4rem auto auto auto;
+}
+.book{
+color: blueviolet;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+button {
+  margin-bottom: .8rem;
+}
+
+.table {
+  width: 100%;
+}
+
+.edit {
+  color: rgb(0, 228, 38);
+}
+
+.delete {
+  color: rgb(250, 0, 0);
+  margin-left: .5rem;
+}
+
+.mat-header {
+  width: 5rem;
+}
+.name{
+color:#468dbdc5 ;
+font-size: 2rem;
+font-weight: 500;
+}
+
+.icons {
+display: flex;
+align-items: center;
+padding-top: 11px;
+padding-bottom: 11px;
+}
+
+.contentBottontable{
+margin-bottom: 5%;
+}
+
+
+span{
+  color:#468dbdc5 ;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}

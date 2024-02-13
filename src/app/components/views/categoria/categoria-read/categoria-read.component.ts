@@ -30,4 +30,5 @@ export class CategoriaReadComponent implements OnInit {
   navegarParaCategoriaupdate() {
     this.router.navigate(['categorias/update']);
   }
+
 }
