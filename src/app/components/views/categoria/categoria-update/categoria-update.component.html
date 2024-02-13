@@ -2,17 +2,17 @@
   <p class="name">ATUALIZANDO CATEGORIA</p>
 
   <mat-form-field class="form">
-    <mat-label>Nome</mat-label>
-    <input matInput  type="text" name="nome" placeholder="EX. Computação"  [ngStyle]="{'color': 'black'}">
+      <mat-label>Nome</mat-label>
+      <input matInput [(ngModel)]="categoria.nome" type="text" name="nome" [ngStyle]="{'color': 'black'}" placeholder="Ex. Computação">
   </mat-form-field>
-
   <mat-form-field class="form">
-    <mat-label>Descrição</mat-label>
-    <input matInput type="text"  name="descricao"  [ngStyle]="{'color': 'black'}">
+      <mat-label>Descrição</mat-label>
+      <textarea matInput [(ngModel)]="categoria.descricao" type="text" name="descricao" [ngStyle]="{'color': 'black'}" placeholder="Ex. Livros de Computação"></textarea>
   </mat-form-field>
 
   <div class="buttons">
-    <button class="mat-elevation-z8" mat-stroked-button color="primary"> ATUALIZAR </button>
-    <button class="mat-elevation-z8" mat-stroked-button color="warn"> CANCELAR </button>
-</div>
+      <button (click)="update()" class="mat-elevation-z8" mat-stroked-button color="primary"> ATUALIZAR </button>
+      <button (click)="cancel()" class="mat-elevation-z8" mat-stroked-button color="warn"> CANCELAR </button>
+  </div>
+
 </form>
