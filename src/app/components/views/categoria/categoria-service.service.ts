@@ -38,7 +38,7 @@ export class CategoriaService {
     this._snack.open(`${str}`, 'OK', {
       horizontalPosition: 'end',
       verticalPosition: 'top',
-      duration: 3000
+      duration: 5000
     })
   }
 
