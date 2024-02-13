@@ -1,0 +1,18 @@
+<form>
+  <p class="name">ATUALIZANDO CATEGORIA</p>
+
+  <mat-form-field class="form">
+    <mat-label>Nome</mat-label>
+    <input matInput  type="text" name="nome" placeholder="EX. Computação"  [ngStyle]="{'color': 'black'}">
+  </mat-form-field>
+
+  <mat-form-field class="form">
+    <mat-label>Descrição</mat-label>
+    <input matInput type="text"  name="descricao"  [ngStyle]="{'color': 'black'}">
+  </mat-form-field>
+
+  <div class="buttons">
+    <button class="mat-elevation-z8" mat-stroked-button color="primary"> ATUALIZAR </button>
+    <button class="mat-elevation-z8" mat-stroked-button color="warn"> CANCELAR </button>
+</div>
+</form>

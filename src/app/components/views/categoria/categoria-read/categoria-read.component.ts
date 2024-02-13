@@ -26,4 +26,8 @@ export class CategoriaReadComponent implements OnInit {
   navegarParaCategoriaCreate() {
     this.router.navigate(['categorias/create']);
   }
+
+  navegarParaCategoriaupdate() {
+    this.router.navigate(['categorias/update']);
+  }
 }
