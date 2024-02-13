@@ -6,7 +6,7 @@
   <button mat-stroked-button (click)="navegarParaCategoriaCreate()" class="mat-elevation-z8">NOVA CATEGORIA</button>
 
   <div class="mat-elevation-z8 content-table">
-    <table class="table" mat-table [dataSource]="categorias">
+    <table class="table contentBottontable" mat-table [dataSource]="categorias">
 
       <ng-container matColumnDef="id">
         <th mat-header-cell *matHeaderCellDef>ID</th>
@@ -39,7 +39,7 @@
           <a routerLink="">
             <i class="material-icons edit">edit</i>
           </a>
-          <a routerLink="">
+          <a routerLink="delete/{{row.id}}">
             <i class="material-icons delete">delete</i>
           </a>
         </td>
